@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!-- HTML5 -->
+<!-- atributo lang (idioma) -->
+<html lang="pt-BR">  <!-- início do documento -->
+<head> <!-- não é renderizado no documento -->
+  <meta charset="UTF-8"> <!-- para escolher a tabela de caracteres -->
+  <title>
+    Um título
+  </title>
+  <style type="text/css">
+    /* . siginifica class: mesma */
+    .mesma {
+      font-size: 16pt;
+    }
+    .importante {
+      background-color: aqua;
+    }
+    /* # significa id */
+    #meu { /* seletor */
+      color: gold;
+    }
+  </style>
+</head>
+<body> <!-- renderizado no documento -->
+  Texto &nbsp; qualquer
+  Mais texto             texto
+  a<br>b<br>c<br>d
+
+  <p id="meu">este é um parágrafo</p>
+  <p id="teu">este é outro parágrafo</p>
+  <span id="outro" class="mesma"></span>
+
+  <span lang="en">document content</span>
+
+  <span>outro</span>
+  Texto
+  Mais texto
+  <script>
+    document.getElementById('meu').onclick = function() {
+      alert('funciona!');
+    }
+  </script>
+</body>
+</html>

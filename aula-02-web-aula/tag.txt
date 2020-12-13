@@ -1,0 +1,13 @@
+Tag - chevron < >
+Abrir a tag:
+<tag>
+Fechar a tag:
+</tag>
+Tags abertas:
+<br> ou <br/>   ("antigamente" era obrigatório fechar)
+HTML5
+
+<tag>escrevo algo - conteúdo da tag "miolo"</tag>
+<tag atributo="algo" outro="mais um">escrevo algo - miolo</tag>
+
+<a><b>miolo</b></a> -- não cruzar tags
